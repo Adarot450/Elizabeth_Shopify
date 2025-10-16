@@ -8,15 +8,23 @@
  * ------------------------------------------------------------
  */
 {
-    "sections": {
-        "featured-collection":{
-            "type": "featured-collection",
-            "settings": {
-                "featured_collection": "all"
-            }
-        }
+  "sections": {
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Collection",
+        "featured_collection": "all",
+        "number_of_products_to_show": 4
+      }
     },
-    "order": [
-        "featured-collection"
-    ]
+    "contact_form_JrRLHx": {
+      "type": "contact-form",
+      "name": "Contact Form",
+      "settings": {}
+    }
+  },
+  "order": [
+    "featured-collection",
+    "contact_form_JrRLHx"
+  ]
 }
